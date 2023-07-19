@@ -236,7 +236,8 @@ media queries
            display: flex;
            align-items: center;
            justify-content: center;
-           transform: translateX(100%);  
+           transform: translateX(100%);
+        transition: all 0.4s linear;
            visibility: hidden;
            opacity: 0;
            pointer-events: none;
